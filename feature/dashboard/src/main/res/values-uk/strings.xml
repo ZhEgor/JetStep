@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ok">Ок</string>
+    <string name="cancel">Скасувати</string>
+    <string name="pick_start_time_hint">Виберіть час початку</string>
+    <string name="pick_finish_time_hint">Виберіть час фінішу</string>
+    <string name="enter_steps_hint">Введіть кроки</string>
+    <string name="track">Зберегти</string>
+</resources>

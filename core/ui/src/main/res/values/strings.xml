@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="running">Running</string>
+    <string name="jogging">Jogging</string>
+    <string name="walking">Walking</string>
+</resources>

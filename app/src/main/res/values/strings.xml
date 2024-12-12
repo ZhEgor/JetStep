@@ -1,0 +1,4 @@
+<resources>
+    <string name="fitness_notification_title">Collecting fitness data…</string>
+    <string name="fitness_notification_channel_name" translatable="false">Fitness Notification Channel Name</string>
+</resources>

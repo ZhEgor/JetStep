@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="pick_start_time_hint">Pick start time</string>
+    <string name="pick_finish_time_hint">Pick finish time</string>
+    <string name="enter_steps_hint">Enter steps</string>
+    <string name="track">Track</string>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="running">Біг</string>
+    <string name="jogging">Біг підтюпцем</string>
+    <string name="walking">Ходьба</string>
+</resources>
