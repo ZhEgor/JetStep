@@ -27,8 +27,8 @@ data class StepFeature(
 
 fun List<StepFeature>.toFloatArray() = map { stepFeature ->
     listOf(
-        stepFeature.magnitude,
+        stepFeature.currentPreviousPeakIntervalDuration.toFloat(),
         stepFeature.peakValleyIntervalDuration.toFloat(),
-        stepFeature.currentPreviousPeakIntervalDuration.toFloat()
+        stepFeature.magnitude,
     )
 }.flatten().toFloatArray()
