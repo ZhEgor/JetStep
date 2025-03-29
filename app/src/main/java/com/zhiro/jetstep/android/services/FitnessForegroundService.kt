@@ -13,8 +13,8 @@ import android.os.IBinder
 import androidx.core.app.ServiceCompat
 import com.zhiro.jetstep.android.notifications.NotificationsHelper
 import com.zhiro.jetstep.domain.repository.StepRepository
-import com.zhiro.jetstep.feature.locomotionclassifier.LocomotionHelper
-import com.zhiro.jetstep.feature.locomotionclassifier.model.ClassifiedSteps
+import com.zhiro.jetstep.core.locomotion.classifier.LocomotionHelper
+import com.zhiro.jetstep.core.locomotion.classifier.model.ClassifiedSteps
 import com.zhiro.jetstep.utils.mappers.toStepBatch
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers

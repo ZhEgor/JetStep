@@ -26,7 +26,7 @@ import androidx.compose.ui.unit.sp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.zhiro.jetstep.feature.dashboard.presentation.dashboard.components.AddStepsModal
 import com.zhiro.jetstep.feature.dashboard.presentation.dashboard.components.PieChart
-import com.zhiro.jetstep.feature.locomotionclassifier.secondsValue
+import com.zhiro.jetstep.core.locomotion.classifier.secondsValue
 import org.koin.androidx.compose.koinViewModel
 
 @Preview
@@ -34,6 +34,7 @@ import org.koin.androidx.compose.koinViewModel
 internal fun DashboardScreen(viewModel: DashboardViewModel = koinViewModel()) {
     val state by viewModel.state.collectAsStateWithLifecycle()
     var showAddNewStepsModal by remember { mutableStateOf(false) }
+    val secondsValue by secondsValue.collectAsStateWithLifecycle()
 
     Scaffold(
         floatingActionButton = {
@@ -75,7 +76,7 @@ internal fun DashboardScreen(viewModel: DashboardViewModel = koinViewModel()) {
             )
 
             Text(
-                text = secondsValue.value.toString(),
+                text = secondsValue.toString(),
                 fontWeight = FontWeight.Medium,
                 fontSize = 32.sp,
                 color = Color.Black

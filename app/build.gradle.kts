@@ -37,8 +37,8 @@ dependencies {
     implementation(projects.core.designSystem)
     implementation(projects.core.navigation)
     implementation(projects.core.common)
+    implementation(projects.core.locomotionClassifier)
     implementation(projects.feature.dashboard)
-    implementation(projects.feature.locomotionclassifier)
 
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)

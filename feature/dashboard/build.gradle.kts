@@ -7,5 +7,5 @@ android {
 }
 
 dependencies {
-    implementation(projects.feature.locomotionclassifier)
+    implementation(projects.core.locomotionClassifier)
 }
